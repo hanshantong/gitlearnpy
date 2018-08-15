@@ -1,0 +1,8 @@
+Run task 0 (7320)
+Run task 1 (7320)
+Run task 2 (7320)
+Run task 3 (7320)
+Run task 4 (7320)
+Parent process 13224.
+Waiting for all subprocesses done...
+All subprocess done.
