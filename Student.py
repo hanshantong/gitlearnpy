@@ -35,8 +35,9 @@ class Student(Person):
 	def gender(self,val):
 		self.gender = val
 		
-		
-		
+	def __str__(self):	
+		return ("Student object-->> name: %s, age: %s"%(self.name,self.age))
+	__repr__ = __str__	
 		
 		
 		
