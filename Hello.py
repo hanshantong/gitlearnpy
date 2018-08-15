@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-#coding:-*- utf-8 *-*
+#-*- coding:utf-8 -*-
 
 'test module'
 
 __author__ = 'tongzi'
 
 import sys
+
+def _private_func(s):
+	print(s)
+
 
 def test():
 	args = sys.argv
