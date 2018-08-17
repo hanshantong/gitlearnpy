@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#user define [tongzi]
+*.jpg
+*.png
+*.bmp
+*.jpeg
