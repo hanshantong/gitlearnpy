@@ -109,3 +109,4 @@ venv.bak/
 *.bmp
 *.jpeg
 *.html
+*.db
