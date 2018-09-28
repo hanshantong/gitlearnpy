@@ -110,3 +110,5 @@ venv.bak/
 *.jpeg
 *.html
 *.db
+*.csv
+*.cfg
