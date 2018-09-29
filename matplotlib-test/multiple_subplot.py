@@ -12,13 +12,17 @@ y2 = np.cos(2 * np.pi * x2)
 
 plt.subplot(2, 1, 1)
 plt.plot(x1, y1, 'o-')
-plt.title("A table of 2 subplots")
+
+#Latex语法：必须以r打头，用两个$符号将LaTeX表达式包含起来
+#如下所示:r"$cos(2{\pi}t)e^{-t}$"
+plt.title(r"$cos(2{\pi}t)e^{-t}$")
 plt.ylabel('Damped oscillation')
 
 plt.subplot(2, 1, 2)
-plt.plot(x2, y2, '-')
+plt.plot(x2, y2, '.-')
 plt.xlabel('time (s)')
 plt.ylabel('Undamped')
+plt.title(r"$cos(2{\pi}t)$")
 plt.savefig('multiple_subplot.png')
 
 plt.show()
