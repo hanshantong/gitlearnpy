@@ -112,3 +112,4 @@ venv.bak/
 *.db
 *.csv
 *.cfg
+*.txt
